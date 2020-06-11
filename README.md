@@ -1,2 +1,5 @@
-# Insight-GDELT-Trending-Businesses
-Used GDELT TBs of data to provide trending of the business sectors
+# Insight-GDELT-Trending-Business-Sectors
+Using GDELT TBs of data to provide trending of the business sectors.
+
+## Architecture Pipeline
+![Image](img/pipeline.jpg)

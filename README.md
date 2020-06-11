@@ -2,4 +2,4 @@
 Using GDELT TBs of data to provide trending of the business sectors.
 
 ## Architecture Pipeline
-![Image](img/pipeline.jpg)
+![Image](img/pipeline.png)

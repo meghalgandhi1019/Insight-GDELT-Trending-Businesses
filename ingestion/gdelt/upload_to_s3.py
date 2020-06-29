@@ -56,7 +56,7 @@ def upload_s3(bucket_address, start_date):
 if __name__ == "__main__":
 
     # Get the year and month from command line arguement
-    cli_date = datetime.strptime(sys.argv[0], '%Y-%m-%d %H:%M:%S')
+    cli_date = datetime.strptime(sys.argv[1], '%Y-%m-%d %H:%M:%S')
     year = str(cli_date.year)
     month = str(cli_date.month)
     year_month_requested = year + month

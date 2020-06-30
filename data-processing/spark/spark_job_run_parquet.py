@@ -10,7 +10,7 @@ if __name__ == "__main__":
     dbfunction = DatabaseFunctions()
 
     # Get the year and month from command line arguement
-    cli_date = datetime.strptime(sys.argv[1], '%Y-%m-%d %H:%M:%S')
+    cli_date = datetime.strptime(sys.argv[1], '%Y-%m-%d')
     year = str(cli_date.year)
     month = str(cli_date.month)
     year_month_requested = year + month

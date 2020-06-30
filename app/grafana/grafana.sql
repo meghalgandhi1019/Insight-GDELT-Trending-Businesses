@@ -1,5 +1,5 @@
 
-/* Grafana queries for drop down menu #
+/* Grafana queries for drop down menu */
 SELECT 'Health' AS __text, 'HLH' AS __value UNION ALL
     SELECT 'Agriculture' AS __text, 'AGR' AS __value UNION ALL
     SELECT 'Environment Sector' AS __text, 'ENV' AS __value UNION ALL
